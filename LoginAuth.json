@@ -1,0 +1,30 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://localhost:5001",
+      "localStorage": [
+        {
+          "name": "isSignedInToOauthContact",
+          "value": "false"
+        },
+        {
+          "name": "isSignedInToOauthCalendar",
+          "value": "false"
+        },
+        {
+          "name": "authToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFydW5Ac291cmNlLm9uZSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwMDIxNTIyMywiZXhwIjoxNzAwMjU2NTk5fQ.soVA13qE2U2DimdDl_dsn6iVlAiO9S_jisQCVL4D7Vg"
+        },
+        {
+          "name": "userProfile",
+          "value": "{\"email\":\"arun@source.one\",\"role\":\"ADMIN\"}"
+        },
+        {
+          "name": "isSignedIn",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
