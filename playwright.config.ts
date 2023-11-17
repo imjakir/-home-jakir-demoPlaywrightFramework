@@ -12,7 +12,7 @@ export default defineConfig({
     use: {
         trace: 'on-first-retry',
         ignoreHTTPSErrors: true,
-        headless: false,
+        headless: true,
         storageState: './LoginAuth.json',
     },
 });
