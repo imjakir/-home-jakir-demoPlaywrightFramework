@@ -2,7 +2,7 @@ import { Browser, Page, chromium,expect } from "@playwright/test";
 
 async function globalSetup() {
 
-  const browser : Browser = await chromium.launch({headless:true})
+  const browser : Browser = await chromium.launch()
   const context  = await browser.newContext({ ignoreHTTPSErrors: true });
   const page : Page = await context.newPage();
   await page.goto('https://localhost:5001/');
